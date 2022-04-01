@@ -1,0 +1,194 @@
+.nav-list {
+    background-color: rgb(181, 178, 178);
+    font-family: Montserrat, sans-serif;
+    box-shadow: 10px;
+    margin: 0;
+    padding: 1rem 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.nav-item {
+    
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.nav-item a:hover{
+    color:dodgerblue;
+}
+
+
+.nav-item:first-child{
+    margin-right: auto;
+    margin-left: 2rem;
+}
+
+.btn {
+    background-color:whitesmoke;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    color:dodgerblue;
+}
+
+
+.all-body {
+    background-color: lightblue;
+    font-family: Ruda , Montserrat, sans-serif;
+
+    
+}
+
+.all-body a{
+    text-decoration: none;
+   
+}
+
+.title-in-image{
+    color: black;
+    font-size: 30px;
+}
+
+
+
+.page-header {
+    background-image: url("./resources/images/bell.png");
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    opacity: 0.3;
+
+    background-position: bottom center;
+}
+
+.title-header{
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    margin: auto;
+}
+
+.first {
+    padding-left: 10px;
+}
+
+.second {
+    padding-left: 10px;
+}
+
+.third {
+    padding-left: 10px;
+}
+
+.headings {
+    inline-size: 550px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.contactus{
+    background-color: aliceblue;
+    inline-size: 550px;
+    padding: 15px;
+}
+
+#myDIV {
+    display: none;
+    font-size: 30px;
+    padding: 0.5rem;
+    
+
+}
+
+.uncover {
+    background-color: grey;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+    text-decoration: none;
+    box-shadow: 0px 5px;
+}
+
+.uncover:hover {
+    color:rgb(0, 82, 163);
+}
+
+.uncover:active {
+    margin-top: 5px;
+    color: black;
+    box-shadow: 0px 0px;
+  }
+
+.customers {
+    
+}
+.logos{
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.logo-small {
+    width: 150px;
+    height: 150px;
+}
+
+.whatsup-image {
+    width: 150px;
+    height: 150px;
+}
+
+
+.button {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 5px;
+    padding: 0.5rem 1rem;
+    width: 50px;
+    height: 25px;
+    text-align: center;
+  }
+
+  .button:link{
+
+  }
+   
+  .button:hover {
+    cursor: pointer;
+  }
+   
+  .button:active {
+    margin-top: 5px;
+    color: black;
+    box-shadow: 0px 0px;
+  }
+
+  .button-test{
+
+  }
